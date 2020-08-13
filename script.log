@@ -1,0 +1,3 @@
+-load=C:\TAHIR\Docs\Master\MastersITALY\Verona\35thModellingweekStPetersburg\codes\data\fastener_stiffness_1E2\fasteners_MW_1E2.asr
+-install=C:\TAHIR\Docs\Master\MastersITALY\Verona\35thModellingweekStPetersburg\codes\data\fastener_stiffness_1E2\slaves.slv
+-save=results.dat 
