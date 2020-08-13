@@ -1,0 +1,31 @@
+NumParts = 3, 41972
+wing wing.stl
+cruciform cruciform.stl
+spring spring.stl
+
+AssemblyNumber = 1
+Assembly03
+NumPartsInAssembly = 2
+wing, spring, 
+SubAreaNumber = 2
+SubArea0
+NumPartsInSubArea = 2
+wing, cruciform, 
+SubArea1
+NumPartsInSubArea = 3
+wing, cruciform, spring, 
+DispCalc = Absolute
+NetNumber = 1
+CalcNetStructure = fasteners_MW_cnetstruct0.dat
+NumMatrices = 2
+RigidityMatrix1 = RigidMatrAssembly03_0.bnr
+RigidityMatrix2 = RigidMatrcruciform_0.bnr
+InitialGap = fasteners_MW_1E2_initgap0.dat
+FasteningMap = fasteners_MW_fastmap.dat
+FixtureInstalled = fasteners_MW_fixinst.dat
+FastenerHoleLinks = fasteners_MW_fastHole.dat
+InitGapStencil = fasteners_MW_initGapStencil.bin
+OperationStages = fasteners_MW_stages.bin
+CoordinateGrid = fasteners_MW_quadrangles.dat
+QuadTolerance = 10 10 10
+Stiffness = 100
